@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Häcker Cocinas México — https://www.hackerkitchen.com.mx/
+     Actualizar <lastmod> en cada despliegue. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.hackerkitchen.com.mx/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.hackerkitchen.com.mx/"/>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/100_jek_av_6000_panorama_blau_2560x1250.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/av7070_gl_bronze_av6088_gl_eiche_schwarz_m1_querformat_1700x1200.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/toronto_ulme_mocca_perfect_soft_sandgrau_m1_1700x1200.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/haecker-drohne_21_1700x1200.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/100_jek_haecker_kueche_1700x1200.jpg</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://www.hackerkitchen.com.mx/assets/images/produktion_1700x1200.jpg</video:thumbnail_loc>
+      <video:title>Häcker Küchen — Film corporativo de fábrica</video:title>
+      <video:description>Recorrido por las 5 fábricas de Häcker Küchen en Rödinghausen, Alemania: 223,500 m² de producción y 1,000 cocinas al día.</video:description>
+      <video:content_loc>https://www.hackerkitchen.com.mx/assets/videos/film-haecker-1080.mp4</video:content_loc>
+      <video:duration>109</video:duration>
+      <video:publication_date>2023-01-01T00:00:00-06:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.hackerkitchen.com.mx/aviso-de-privacidad.html</loc>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hackerkitchen.com.mx/blog/</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hackerkitchen.com.mx/blog/cuanto-cuesta-una-cocina-alemana-en-mexico.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/av5015_sandbeige_breccia_imperiale_1700x1200.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.hackerkitchen.com.mx/blog/systemat-o-concept130.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/av7070_gl_bronze_av6088_gl_eiche_schwarz_m1_querformat_1700x1200.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.hackerkitchen.com.mx/blog/certificaciones-cocina-alemana.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/iso9001_quadratisch.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.hackerkitchen.com.mx/blog/cocina-alemana-vs-carpinteria-a-medida.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/toronto_ulme_mocca_perfect_soft_sandgrau_m1_1700x1200.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.hackerkitchen.com.mx/blog/proceso-cocina-alemana-mexico.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <image:image>
+      <image:loc>https://www.hackerkitchen.com.mx/assets/images/haecker-drohne_21_1700x1200.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>
