@@ -141,7 +141,9 @@ ul { list-style: none; }
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.9rem;
+  flex: 0 0 auto;
+  padding-right: 1.35rem;
 }
 
 .brand__logo {
@@ -156,7 +158,9 @@ ul { list-style: none; }
   letter-spacing: 0.3em;
   color: var(--bronze-deep);
   border-left: 1px solid var(--line);
-  padding-left: 0.75rem;
+  padding-left: 0.8rem;
+  white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 .site-nav {
@@ -382,7 +386,7 @@ ul { list-style: none; }
 .hero__steps {
   position: absolute;
   z-index: 4;
-  left: max(var(--gutter), calc((100vw - var(--wrap)) / 2));
+  left: 25px;
   top: 50%;
   transform: translateY(-50%);
   width: 5.1rem;
@@ -530,8 +534,8 @@ ul { list-style: none; }
   }
 
   .hero__steps {
-    left: var(--gutter);
-    right: var(--gutter);
+    left: 25px;
+    right: 25px;
     top: 1.15rem;
     width: auto;
     transform: none;
@@ -558,7 +562,7 @@ ul { list-style: none; }
   .hero__steps li small { font-size: 0.42rem; letter-spacing: 0.12em; }
 
   .hero__progress {
-    left: var(--gutter);
+    left: 25px;
     bottom: 1.2rem;
   }
 
