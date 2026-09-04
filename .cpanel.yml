@@ -4,14 +4,29 @@ deployment:
     - export DEPLOYPATH=/home/gyu5la0fbzjq/public_html/hackerkitchen.com.mx
 
     - /bin/rm -rf ${DEPLOYPATH}/assets
+    - /bin/rm -rf ${DEPLOYPATH}/blog
     - /bin/rm -rf ${DEPLOYPATH}/css
+    - /bin/rm -rf ${DEPLOYPATH}/img
     - /bin/rm -rf ${DEPLOYPATH}/js
 
     - /bin/cp -R assets ${DEPLOYPATH}
+    - /bin/cp -R blog ${DEPLOYPATH}
     - /bin/cp -R css ${DEPLOYPATH}
+    - /bin/cp -R img ${DEPLOYPATH}
     - /bin/cp -R js ${DEPLOYPATH}
 
     - /bin/cp index.html ${DEPLOYPATH}
+    - /bin/cp 404.html ${DEPLOYPATH}
+    - /bin/cp aviso-de-privacidad.html ${DEPLOYPATH}
 
-    - if [ -f robots.txt ]; then /bin/cp -f robots.txt ${DEPLOYPATH}/robots.txt; fi
-    - if [ -f sitemap.xml ]; then /bin/cp -f sitemap.xml ${DEPLOYPATH}/sitemap.xml; fi
+    - /bin/cp apple-touch-icon.png ${DEPLOYPATH}
+    - /bin/cp favicon-96.png ${DEPLOYPATH}
+    - /bin/cp favicon.ico ${DEPLOYPATH}
+    - /bin/cp icon-192.png ${DEPLOYPATH}
+    - /bin/cp icon-512.png ${DEPLOYPATH}
+    - /bin/cp img-logo-hacker.png ${DEPLOYPATH}
+
+    - /bin/cp llms.txt ${DEPLOYPATH}
+    - /bin/cp robots.txt ${DEPLOYPATH}
+    - /bin/cp site.webmanifest ${DEPLOYPATH}
+    - /bin/cp sitemap.xml ${DEPLOYPATH}
