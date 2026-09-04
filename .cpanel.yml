@@ -1,0 +1,25 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gyu5la0fbzjq/public_html/hackerkitchen.com.mx
+
+    # Limpiar archivos gestionados por Git
+    - /bin/rm -rf "$DEPLOYPATH/css"
+    - /bin/rm -rf "$DEPLOYPATH/js"
+    - /bin/rm -rf "$DEPLOYPATH/assets"
+
+    # Limpiar HTML actuales
+    - /bin/rm -f "$DEPLOYPATH"/*.html
+
+    # Copiar estructura del proyecto
+    - /bin/cp -R css "$DEPLOYPATH/" 2>/dev/null || true
+    - /bin/cp -R js "$DEPLOYPATH/" 2>/dev/null || true
+    - /bin/cp -R assets "$DEPLOYPATH/" 2>/dev/null || true
+
+    # Copiar archivos HTML de la raíz
+    - /bin/cp -f *.html "$DEPLOYPATH/" 2>/dev/null || true
+
+    # Copiar archivos públicos adicionales si existen
+    - /bin/cp -f robots.txt "$DEPLOYPATH/" 2>/dev/null || true
+    - /bin/cp -f sitemap.xml "$DEPLOYPATH/" 2>/dev/null || true
+    - /bin/cp -f favicon.ico "$DEPLOYPATH/" 2>/dev/null || true
